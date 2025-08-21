@@ -18,6 +18,3 @@ The NPC (agent) only walks on available vertices and edges that connect these ve
 The pathfinding LRTA* algorithm is being used. In the LRTA*, the algorithm analyzes all neighbors of the current vertex to choose the most promising vertex and update the current vertex heuristic with the second best cost value. However, this algorithm discards previously calculated information about the other neighbors.
 
 When starting in Play mode, if something is saved, it will load the graph with the name that was set in the *Inspector*.
-
-## License
-Apache 2.0 license. See the [`LICENSE`](LICENSE) file for details.
